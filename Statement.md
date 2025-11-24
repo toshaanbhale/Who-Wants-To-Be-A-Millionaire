@@ -8,7 +8,7 @@ The core challenge is to create an interactive and engaging console application 
 
 This project is a standalone console application scoped to cover the full gameplay loop of the quiz:
 
-Question Progression: Presentation of 15 questions of increasing difficulty.
+Question Progression: Presentation of 16 questions of increasing difficulty.
 
 Input Handling: Management of multiple-choice input (a, b, c, d), lifeline activation (l), and the quit option (q).
 
