@@ -80,7 +80,7 @@ def audiencepoll(answer, options, level):
             print("b: 3%")
             print("c: 1%")
             print("d: 76%")
-    elif level >= 10 and level <= 14 and fifty_count == 0:
+    elif level >= 10 and level <= 15 and fifty_count == 0:
         if answer == "a":
             print("a: 51%")
             print("b: 4%")
@@ -127,7 +127,7 @@ def audiencepoll(answer, options, level):
         elif answer == "d":
             print("a: 20%")
             print("d: 76%")
-    elif level >= 10 and level <= 14 and fifty_count == 1:
+    elif level >= 10 and level <= 15 and fifty_count == 1:
         if answer == "a":
             print("a: 51%")
             print("b: 4%")
@@ -275,5 +275,6 @@ for i in kbc_questions_answers:
             prize = 0
             print("You did not reach a safe level. Better luck next time!")
         break
+
 
 print(f"\n🌟FINAL PRIZE WON : ₹{prize:,} ")
